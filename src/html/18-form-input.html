@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form(input) 요소</title>
+    <link
+      rel="shortcut icon"
+      href="/public/favicon/likelion.ico"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="/public/favicon/likelion.svg" type="image/svg" />
+    <link
+      rel="preload"
+      as="font"
+      href="/public/font/suit/SUIT-Variable.woff2"
+    />
+    <link rel="stylesheet" href="/public/font/suit/SUIT-Variable.css" />
+    <style>
+      body {
+        font-family: 'SUIT Variable', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="/index.html">메인 페이지 이동</a>
+    <br />
+    <h1>폼(input) 요소</h1>
+    <!-- 한줄 글상자 - 검색어 입력서식-->
+    <form action="https://formspree.io/f/xeqwwbwk" method="post">
+      <div>
+        <label for="userName">이름</label>
+        <input type="text" id="userName" />
+      </div>
+      <div>
+        <label for="searchKeyword">검색어</label>
+        <input
+          type="search"
+          id="searchKeyword"
+          placeholder="검색어를 입력하세요"
+        />
+      </div>
+      <!-- checkbox : 체크박스 서식 -->
+      <div>
+        <input type="checkbox" name="bootcamp" id="bootcamp" />
+        <lable for="bootcamp">html</lable>
+      </div>
+      <div>
+        <input type="checkbox" name="bootcamp" id="bootcamp" />
+        <lable for="bootcamp">css</lable>
+      </div>
+      <!--라디오 서식-->
+      <div>
+        <lable
+          ><input type="radio" name="classRoom" value="classRoom1" /> 회고
+          1팀</lable
+        >
+      </div>
+      <div>
+        <lable
+          ><input type="radio" name="classRoom" value="classRoom2" /> 회고
+          2팀</lable
+        >
+      </div>
+      <!-- 버튼(submit) 검색버튼-->
+      <div>
+        <input type="submit" value="전송" />
+        <input type="reset" value="초기화" />
+        <input type="button" value="버튼" />
+      </div>
+      <!--tel : 전화번호 입력서식(html5)에서 새로 추가-->
+      <div>
+        <label for="">전화번호</label
+        ><input type="email" name="" id="userEmail" />
+      </div>
+      <!--email : 메일 입력서식(html5)에서 새로 추가-->
+      <div>
+        <label for="">이메일</label
+        ><input required type="email" name="" id="userEmail" />
+      </div>
+    </form>
+  </body>
+</html>
