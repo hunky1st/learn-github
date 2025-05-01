@@ -1,0 +1,31 @@
+.wrapper {
+  color: green;
+  border: 1px solid blue;
+}
+.wrapper p {
+  border: inherit;
+}
+
+/* 겹침 */
+body {
+  color: red;
+}
+
+/* 겹침(상속) */
+
+.wrapper {
+  color: purple;
+}
+#container {
+  color: thistle;
+}
+p {
+  color: yellow;
+}
+p {
+  color: gray;
+}
+
+p {
+  color: pink;
+}

@@ -1,0 +1,51 @@
+/* 전체 선택자 */ /* 태그 선택자 - Type selectors */
+p {
+  color: blue;
+}
+
+.like {
+  font-size: 100px;
+}
+
+#lion {
+  background-color: yellow;
+}
+
+p[title] {
+  color: aqua;
+}
+
+div p {
+  border: 1px solid red;
+  padding: 10px;
+}
+
+div p .combinator {
+  color: green;
+}
+
+ul > li {
+  border: 1px solid green;
+}
+
+h2 + p {
+  font-style: italic;
+}
+
+div ~ p {
+  font-weight: 700;
+}
+
+section {
+  border: 1px solid green;
+  padding: 20px;
+  margin: 20px;
+}
+
+section::before {
+  content: '멋쟁이사자처럼';
+}
+
+section::after {
+  content: '아주멋진사사사사자처럼';
+}
