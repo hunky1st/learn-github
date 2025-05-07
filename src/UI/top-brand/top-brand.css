@@ -1,0 +1,11 @@
+body {
+  margin: 50px;
+}
+
+.productbox {
+  padding: 50px;
+}
+
+.brandName {
+  position: absolute;
+}

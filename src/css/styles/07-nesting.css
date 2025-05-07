@@ -1,0 +1,39 @@
+/* 일반 CSS */
+.parent {
+  background-color: #f4a261;
+  padding: 20px;
+}
+
+.parent .child {
+  color: white;
+  font-size: 16px;
+}
+
+.button {
+  color: red;
+  &:hover {
+    background-color: yellow;
+  }
+  &::before {
+    content: '콘텐츠';
+  }
+}
+
+/* 일반 CSS */
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+
+/* Sass와의 차이점 */
+/* 
+.menu__list{
+  .menu__item{}
+}

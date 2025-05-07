@@ -1,0 +1,39 @@
+/* 부모는 staric, 자식은 relative = 그림자 같은 효과를 줄 수 있음 
+---
+.like {
+  background-color: black;
+  p {
+    border: 1px solid red;
+    position: relative;
+    background-color: yellow;
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+*/
+
+/* fixed 값 
+h1 {
+  background-color: pink;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+*/
+
+/* absolute 값 */
+.bootcamp {
+  border: 1px solid blue;
+  position: relative;
+  .lion {
+    span {
+      background-color: lightblue;
+      border: 1px solid black;
+      position: absolute;
+      top: 20px;
+      left: 0;
+    }
+    position: absolute;
+  }
+}
