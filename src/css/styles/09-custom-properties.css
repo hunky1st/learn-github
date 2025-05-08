@@ -1,0 +1,23 @@
+:root {
+  --red: #f00;
+  --main-color: var(--red);
+}
+body {
+  margin: 50px;
+  background: #ffc;
+  color: var(--main-color);
+}
+a {
+  --text-color: var(--red);
+  span {
+    color: var(--text-color);
+  }
+}
+
+span {
+  color: var(--red);
+}
+
+h1 {
+  box-shadow: 5px 5px 5px 5px var(--main-color);
+}
