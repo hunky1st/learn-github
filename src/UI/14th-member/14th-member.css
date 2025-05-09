@@ -1,0 +1,12 @@
+/* 테이블 스타일링 */
+.table-styling {
+  height: 500px;
+  width: 100%;
+  overflow: none;
+}
+
+thead {
+  position: sticky;
+  background-color: black;
+  text-decoration-color: white;
+}

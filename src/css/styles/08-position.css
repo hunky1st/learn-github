@@ -37,3 +37,9 @@ h1 {
     position: absolute;
   }
 }
+
+.frontend {
+  background: var(--mint);
+  top: 0px;
+  position: sticky;
+}

@@ -1,0 +1,31 @@
+/* 폼 스타일링 */
+body {
+  margin: 50px;
+}
+
+/* 컴포넌트 컨테이너 */
+.component-wrapper {
+  > div {
+    margin-block: 1em;
+    width: 100%;
+    background-color: #ffffff;
+  }
+}
+.form-input {
+  background: yellow;
+  --input-color: var(--gray);
+  background: flex;
+}
+
+label {
+  min-width: 56px;
+  background: pink;
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+input {
+  border: 1px solid var(--input-color);
+  border-radius: 4px;
+  width: calc(100% - 56px);
+}
